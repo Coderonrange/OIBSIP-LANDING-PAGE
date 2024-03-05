@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/516.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.logo{
+    float: left;
+    padding:20px 50px;
+    font-size: 50px;
+    font-weight: 900;
+}
+span{
+    color: orangered;
+    font-size: 75px;
+}
+.cantiner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+ul li{
+    display: inline-flex;
+    padding-left: 10px;
+}
+ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    margin-left: 15px;
+    transition: 0.1s;
+}
+ul li a:hover{
+    border-bottom: 3px solid rgb(0, 68, 255);
+}
+.left{
+    flex-basis: 50%;
+    color: #ffffff;
+    margin-top: 150PX;
+    max-width: 510px;
+}
+.left h1{
+    border-bottom: 2px solid black;
+}
+.right{
+    flex-basis: 50%;
+}
+.form{
+    border-radius: 15px;
+    border:2px solid #0b44e0 ;
+    background-color: rgba(255, 3, 3, 0.2);
+    width: 50%;
+    height: 300px;
+    margin-top: 140px;
+    margin: auto;
+    padding: 30px 20px;
+    color: #ffffff;
+}
+input[type="text"]{
+    padding: 10px;
+    border: none;
+    margin: 10px 20px;
+    width: 70%;
+}
+input[type="checkbox"]{
+    padding: 10px;
+    border: none;
+    margin: 10px 20px;
+}
+button{
+    padding: 10px 2px;
+    border: none;
+    background-color: black;
+    width: 50%;
+    margin: 10px 20px;
+    color: #ffffff;
+}
+ a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+ }
+.counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px
+}
+.counter p{
+    align-items: center;
+    color: #000;
+    font-size: 30px;
+}
+.left H1{
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-size: 60px;
+}
